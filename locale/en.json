@@ -1,0 +1,26 @@
+{
+    "lang_info": {
+        "name": "English",
+        "short": "en",
+        "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    },
+    "bot_welcome": "Hi I'm %{name}. I can delete messeges in your group based on users' poll\nJust send @%{username} as a reply to the message you want to delete",
+    "yes": "Yes",
+    "no": "No",
+    "success": "Success!",
+    "not_permitted": "Not Permitted",
+    "question_string": "Shall I delete this message by %{name}?",
+    "question_string_ban": "Shall I ban %{name} and delete this message?",
+    "main_menu": "Choose an option from below list",
+    "locale_menu": "Choose a language",
+    "vote_menu": "Choose minimum number of votes to make a decision",
+    "timeout_menu": "Choose time after which closed poll should be deleted",
+    "language": "Language",
+    "vote_count": "Number of Votes",
+    "delete_timeout": "Time to Delete",
+    "disable": "Disable",
+    "immediate": "Immediate",
+    "second": "Second",
+    "minute": "Minute",
+    "back": "◀️Back"
+}

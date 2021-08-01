@@ -1,0 +1,22 @@
+{
+  "name": "ibcleanerbot",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": ""
+    },
+    "DEFAULT_VOTE_COUNT": {
+      "description": "How many votes to apply deleting?",
+      "value": "10"
+    },
+    "DEFAULT_DELETE_TIMEOUT": {
+      "description": "How many seconds to apply deleting?",
+      "value": "60"
+}
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
