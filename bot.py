@@ -364,7 +364,8 @@ class ibCleanerBot:
 
 
 if __name__ == "__main__":
-    from config import Config
-
+    IS_ENV = "TRUE"
+    if IS_ENV:
+        from config import Config
     ibcBot = ibCleanerBot(Config)
-    ibcBot.initialize_bot()
+    ibcBot.initialize_bot(IS_ENV)
